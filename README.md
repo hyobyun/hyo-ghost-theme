@@ -1,5 +1,5 @@
 # hyo-ghost-theme
-Theme for my personal blog. I was going to keep it for myself, but I figured sharing is caring.
+Minimal theme for my personal blog. I was going to keep it for myself, but I figured sharing is caring.
 ![Screenshot of a post](/screenshot.png?raw=true "Screenshot of a post")
 
 # Instructions
