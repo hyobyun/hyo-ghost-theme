@@ -20,7 +20,36 @@
             </header>
 
             <section class="post-content">
-                {{content}}
+              <br>
+              <h4>Tags</h4>
+              <p>
+              {{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
+              {{#foreach tags}}
+                  <a href='/tag/{{ name }}'>
+                     {{ name }} <small>({{ count.posts }})</small>
+                  </a><br>
+              {{/foreach}}
+              {{/get}}
+            </p>
+
+              <br><br>
+
+              <h4>Posts</h4>
+
+<p>
+              {{#get "posts" limit="all"}}
+       {{#foreach posts}}
+           <span>
+               {{#if featured}}
+                   <span class='fa fa-star'></span>
+               {{/if}}
+               {{date published_at format="MMM DD, YYYY"}}:&nbsp;
+               <a href="{{url}}">{{title}} </a>
+           </span>
+           <br>
+       {{/foreach}}
+   {{/get}}
+ </p>
             </section>
 
 

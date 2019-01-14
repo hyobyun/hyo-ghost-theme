@@ -45,6 +45,11 @@
         <body class="{{body_class}}">
           {{! The header }}
           <header id="site-header">
+
+            <div id="site-menu">
+             {{navigation}}
+            </div>
+
             <div class="container">
               <a href="{{@blog.url}}"  alt="Blog Title">
                 <h1 class="blog-title heading">{{@blog.title}}</h1>
