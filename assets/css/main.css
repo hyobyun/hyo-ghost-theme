@@ -73,7 +73,10 @@ body {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background: transparent; }
+  background: transparent;
+
+    text-decoration: underline;
+   }
 
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
@@ -476,7 +479,8 @@ a:hover {
   color: #b3b3b3; }
 
 p a, p a:visited {
-  line-height: inherit; }
+  line-height: inherit;
+  text-decoration: underline; }
 
 ul,
 ol {
