@@ -340,7 +340,9 @@ textarea {
  */
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+  margin-bottom:1em;
+}
 
 @media print {
   * {
@@ -569,7 +571,7 @@ body {
   -ms-hyphens: auto;
   -o-hyphens: auto;
   hyphens: auto;
-  word-wrap: break-word; }
+  word-wrap: normal; }
   body:before, body:after {
     content: "";
     display: table; }
@@ -790,7 +792,7 @@ input:focus, textarea:focus {
 
 code {
   max-width: 100%;
-  border: 5px solid #cccccc;
+  border: 0px solid #cccccc;
   margin: 1.5em 0; }
 
 hr {
@@ -957,4 +959,9 @@ hr {
   text-align: center;
   height: 10em; }
 
-/*# sourceMappingURL=main.css.map */
+  th {
+      padding-right: 5px;
+  }
+  td {
+    padding-right: 5px;
+}
