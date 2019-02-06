@@ -886,8 +886,7 @@ hr {
 
 .post-content a, #site-footer a {
   color: #333333;
-  text-decoration: none;
-  font-weight: bold; }
+}
 .post-content a:hover, #site-footer a:hover {
   color: #e6e6e6;
   border-bottom: 1px solid; }
